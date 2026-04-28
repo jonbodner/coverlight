@@ -4,6 +4,8 @@ An alternative to `go tool cover -html` that supports light and dark mode covera
 
 The standard `go tool cover` generates HTML coverage reports with a dark background. `coverlight` provides a light mode option where covered code is displayed in bold black and uncovered code appears as inverse text (white on black), making coverage gaps immediately visible.
 
+This code is mostly based on the original `cover` tool included with the Go standard library.
+
 ## Install
 
 ```bash
